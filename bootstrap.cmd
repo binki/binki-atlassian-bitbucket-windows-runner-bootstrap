@@ -36,4 +36,6 @@ ECHO powershell -noprofile %BITBUCKET_RUNNER_START% >> "%STARTUP_SCRIPT_PATH%"
 
 schtasks /create /sc ONLOGON /tn bitbucket-pipelines-runner /tr "%STARTUP_SCRIPT_PATH%" /rl HIGHEST
 
+: # Rebooting is necessary to apply the pagefile.sys changes. Also, this
+: # provides a way to verify that the scheduled task is functional.
 shutdown /r /t 0

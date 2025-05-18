@@ -14,8 +14,11 @@ Usage instructions:
 3. Visit the “Add runner” page in Bitbucket.
 4. Copy and past the `.\start.ps1` command into the administrator command prompt.
 5. Press enter in the administrator command prompt. You will have set the `BITBUCKET_RUNNER_START` variable to the command starting with `.\start.ps1`.
-6. Copy and paste the below and press enter:
+6. Copy and paste the below into the administrator command prompt:
 
     ```
     curl -L https://github.com/binki/binki-atlassian-bitbucket-windows-runner-bootstrap/blob/master/bootstrap.cmd?raw=1 | CMD
     ```
+7. Press enter in the administrator command prompt.
+
+Note that you might need to lock and relock the screen once in order to click “Sign In” in Windows in a basic console session in order to trigger Windows’s autologin feature.

@@ -16,6 +16,6 @@ Usage instructions:
 5. Press enter in the administrator command prompt. You will have set the `BITBUCKET_RUNNER_START` variable to the command starting with `.\start.ps1`.
 6. Copy and paste the below and press enter:
 
-```
-curl -L https://github.com/binki/binki-atlassian-bitbucket-windows-runner-bootstrap/blob/master/bootstrap.cmd?raw=1 | CMD
-```
+    ```
+    curl -L https://github.com/binki/binki-atlassian-bitbucket-windows-runner-bootstrap/blob/master/bootstrap.cmd?raw=1 | CMD
+    ```

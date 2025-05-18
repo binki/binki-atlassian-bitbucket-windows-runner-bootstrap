@@ -12,7 +12,7 @@ Usage instructions:
     ```
 
 3. Visit the “Add runner” page in Bitbucket.
-4. Copy and past the `.\start.ps1` command into the administrator command prompt.
+4. Copy and paste the `.\start.ps1` command into the administrator command prompt.
 5. Press enter in the administrator command prompt. You will have set the `BITBUCKET_RUNNER_START` variable to the command starting with `.\start.ps1`.
 6. Copy and paste the below into the administrator command prompt:
 
